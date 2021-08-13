@@ -1,0 +1,216 @@
+---
+title: "¿Podemos predecir el comportamiento de las personas?"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  #fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+library(icons)
+library(fontawesome)
+library(knitr)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#084387",
+  secondary_color = "#d3e5f2",
+  inverse_header_color = "#F36B1C", 
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  link_color = "#3480eb",  
+    link_decoration = "none"
+)
+```
+
+class: middle, center
+## CIENCIAS SOCIALES COMPUTACIONALES 
+
+![](https://miro.medium.com/max/700/1*zlt_wRZCGofSbmSqduds9w.png)
+---
+class:  inverse, middle, center
+
+## GUADA GONZALEZ
+
+<img src="https://github.com/guadag12/cssoccomputacionales/raw/main/img/img-guada.png" width="15%" />
+
+### Politóloga & Data Scientist
+
+#### [GICP Observatorio de Redes](https://twitter.com/O_de_R)
+
+#### Investigadora [ILCSS](https://twitter.com/ilcss_umd)
+
+#### Profesora en [Laboratorio de Políticas Públicas](https://twitter.com/LABPoliticasUBA)
+
+---
+class: middle, center
+
+### ¿QUÉ ES LA CIENCIA DE DATOS?
+
+![](https://ichi.pro/assets/images/max/724/1*km81hu0_UaMm1aTz3VHJog.png)
+---
+class: middle, center
+
+<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+
+##### [www.politicosentwitter.com](www.politicosentwitter.com)
+
+---
+class: middle, center
+
+## GICP OBSERVATORIO DE REDES ([@O_de_R](www.twitter.com/O_de_R))
+</br>
+
+.center[<img src="https://github.com/guadag12/cssoccomputacionales/raw/main/img/img-juani.png" width="15%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/guadag12/cssoccomputacionales/raw/main/img/img-guada.png" width="15%">]
+#### [@juanibelbis](www.twitter.com/juanibelbis) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       [@guadag12](www.twitter.com/guadag12) 
+.center[<img src="https://github.com/guadag12/cssoccomputacionales/raw/main/img/img-agos.png" width="15%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/guadag12/cssoccomputacionales/raw/main/img/img-maca.png" width="15%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/guadag12/cssoccomputacionales/raw/main/img/img-angie.png" width="15%">
+]
+#### [@AgosSanguinetti](https://twitter.com/AgosSanguinetti) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [@macarenazappe](https://twitter.com/macarenazappe) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [@angielafuente](https://twitter.com/angielafuente) 
+
+---
+class: middle, center
+
+### Proyectos
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+.panelset[
+
+.panel[.panel-name[Capacitaciones]
+<img src="https://github.com/guadag12/cssoccomputacionales/raw/main/img/capacitacion.jpg" width="60%" />
+]
+
+.panel[.panel-name[App]
+<img src="https://github.com/Observatorio-de-Redes/politicosentwitter/raw/main/ShinyApp/www/shiny%20contest/img%20def.png" width="60%" />
+
+##### [www.politicosentwitter.com](www.politicosentwitter.com)
+]
+
+.panel[.panel-name[R Package]
+
+<img src="https://github.com/guadag12/politicxsentwitteR/raw/main/man/figures/logo.png" width="25%" />
+
+
+#### [Primer paquete en R!](https://github.com/guadag12/politicxsentwitteR)
+]
+
+.panel[.panel-name[Blog]
+
+<img src="https://miro.medium.com/max/624/1*j2ILXRAa92mVM2mA6ao4Xg.png" width="80%" />
+
+#### [Blog](https://oderedes.medium.com/)
+]
+
+
+]
+
+---
+
+class: inverse, middle, center
+
+# SALIDA LABORAL 🤓💻 
+
+---
+class: inverse, center, middle
+background-image: url(https://miro.medium.com/max/980/1*E8_i2ClQe6BilyO_LjQIig.gif)
+background-size: contain
+  
+---
+class: middle, center
+
+.pull-left[
+
+#### UN MUNDO DE POSIBILIDADES 🌟
+
+</br>
+
+*   **Política Pública**: </br>  
+
+  *   Análisis de datos </br>  
+ 
+  *   Datos Abiertos </br>  
+
+  *   Estadistica (INDEC) </br>  
+</br>  
+
+*   **Comunicación Política** </br>  
+</br>  
+
+*   **Investigación**</br>  
+ </br>  
+
+*   **Sector Privado** </br>  
+]
+
+.pull-right[
+.center[
+![](https://media.giphy.com/media/BIA2rRLTq0ibe/giphy.gif)]
+]
+---
+# ¿POR DÓNDE PUEDO ARRANCAR?
+
+* Recursos online:
+  * [R4DS](https://es.r4ds.hadley.nz/)
+  * [Cursera](https://www.coursera.org/)
+  * [edx](https://www.edx.org/) </br>
+</br>
+--
+
+* Laboratorio de Políticas Públicas en UBA:
+  * [Web](http://labpoliticasuba.com/)
+  * [Clases Online](https://github.com/labpoliticasuba)
+  * [Twitter](https://twitter.com/LABPoliticasUBA) </br>
+</br>  
+--
+
+* Metodologia de análisis en Opinión Pública ([programa](http://cienciapolitica.sociales.uba.ar/wp-content/uploads/sites/6/2019/07/prog_met4op_Tomas_A_Olego.pdf)) </br>
+</br>
+--
+
+* Cursos de la Dirección de Cultura en R </br>
+</br>
+--
+
+* Laboratorio de Datos (Exactas UBA):
+  * [materiales y clases](http://materias.df.uba.ar/lda2021c1/171-2/)
+</br>
+
+--
+
+* Comunidad: 
+  *  [Rladies](https://twitter.com/RLadiesBA) </br>
+  *  [R en Buenos Aires](https://twitter.com/renbaires) </br>
+
+
+---
+
+class: inverse, middle, center
+
+# GRACIAS!🥰 🙌
+</br>
+## ESTEMOS EN CONTACTO! 🙌 👇
+
+[`r fontawesome::fa("twitter")` @guadag12](https://twitter.com/guadag12)&nbsp;&nbsp;&nbsp;&nbsp; [`r fontawesome::fa("github")` @guadag12](http://github.com/guadag12) &nbsp;&nbsp;&nbsp;&nbsp; [`r fontawesome::fa("paper-plane")` guadagonz12@gmail.com](guadagonz12@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;
+
+
